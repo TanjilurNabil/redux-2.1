@@ -1,7 +1,17 @@
-import { legacy_createStore as createStore } from "redux";
+import { applyMiddleware, legacy_createStore as createStore } from "redux";
 
 import rootReducuer from "./rootReducer";
+//Creating a custom middleware
+const myLogger = (state) => (next) => (action) => {
+    console.log(`Action: ${JSON.stringify(action)}`);
+    console.log(`Before: ${JSON.stringify(state.getState())}`);
 
-const store = createStore(rootReducuer);
+    const upcomingState = [action].reduce(rootReducuer, state.getState());
+    console.log(`Upcoming State: ${JSON.stringify(upcomingState)}`);
+    //Pass the action to the next middleware or to the reducer
+    return next(action)
+}
+
+const store = createStore(rootReducuer,applyMiddleware(myLogger));
 
 export default store
