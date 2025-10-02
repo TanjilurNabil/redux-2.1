@@ -1,4 +1,4 @@
-[![Youtube][youtube-shield]][youtube-url]
+<!-- [![Youtube][youtube-shield]][youtube-url]
 [![Facebook][facebook-shield]][facebook-group-url]
 
 <!-- PROJECT LOGO -->
@@ -68,7 +68,7 @@ Please follow the below instructions to run this branch in your machine:
 [instagram-url]: https://instagram.com/learnwithsumit
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/company/learnwithsumit
-[thumbnail-shield]: https://i.ibb.co/d6hxnvd/Screenshot-50.png
+[thumbnail-shield]: https://i.ibb.co/d6hxnvd/Screenshot-50.png -->
 [mail-shield]: https://img.shields.io/badge/%F0%9F%93%A7%20Email-support%40learnwithsumit.com-lightgray
 [mail-url]: mailto:support@learnwithsumit.com
 [tableofcontent-shield]: https://img.icons8.com/external-flatart-icons-flat-flatarticons/28/undefined/external-direction-business-and-teamwork-flatart-icons-flat-flatarticons.png
